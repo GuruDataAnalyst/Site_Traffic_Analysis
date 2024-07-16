@@ -26,14 +26,14 @@ This data analysis project aims to provide insights and creating dashboard into 
 
 ### Data Sources
 
-Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company.
+Site Traffic Analysis Data: The primary dataset used for this analysis is the "Site Traffic Analysis Source dat.xlsx" file, containing detailed information about each sale made by the company.
 
 ### Tools
 
 - Excel - Data Cleaning
-  - [Download here](https://docs.google.com/spreadsheets/d/1wcUH2O2iykRGxn7IqEgv1nj-_aJrjw01sBrdgPYcsQQ/edit?gid=0#gid=0)
+  - [Download here](https://docs.google.com/spreadsheets/d/1oLrTBUfBKWuG6aRmgFbbATidnGb0RxYZLeLNNz1rdJA/edit?gid=0#gid=0)
 - SQL Server - Data Analysis
-- PowerBI - Creating reports
+- Looker Studio - Creating reports
 
 
 ### Data Cleaning/Preparation
@@ -47,11 +47,12 @@ In the initial data preparation phase, we performed the following tasks:
 
 EDA involved exploring the sales data to answer key questions, such as:
 
-- Identify sales trend?
-- Which  are order by city?
-- What are  order by region?
-- What are order by category? 
-- What are order by segement? 
+- Identify Total users?
+- What are numbers of sessions?
+- What are  numbers of engaged session?
+- What are our revenue? 
+- How many users visited the website?
+- Where are users of the website coming from? 
 
 ### Data Analysis
 
@@ -65,24 +66,26 @@ WHERE cond = 4;
 ### Results/Findings
 
 The analysis results are summarized as follows:
-1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the year 2017.
-2. Order by Category Binders is the best-performing category in terms of sales and revenue .
-3. City of Newyork orders were highest among all other city a .
-4. Consumer segments that has highest value  of order should be targeted for more sales.
-5. Western region has the highest order which should be focus for more sales and we need more advetisement in the least region.
+1. The Total users were 6,143.
+2. The numbers of sessions were 6,245.
+3. The numbers of engaged session were 2,184.
+4. The revenue were 335.
+5. The number of users visited the website were 6,143.
+6. Their are major users of the website come from Tucson. 
+
 
 ### Recommendations
 
-Based on the analysis, we recommend the following actions:
-- Invest in marketing and promotions in the least categories copiers to maximize revenue.
-- Focus on expanding and promoting products in Category Binders.
+Based on the analysis, I recommend the following actions:
+- Invest in marketing and promotions in the least state which was Catali.
+- Focus on expanding in the city of Tucson.
 - Implement a customer segmentation strategy to target high-LTV customers effectively.
-- The city of Newyork should be more targeted city for more sales
+- The city of Tucson should be more targeted city for more users.
   
 
 ### Limitations
 
-I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between sales and profit.
+I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. And also hide unused coloumn.
 
 ### References
 
