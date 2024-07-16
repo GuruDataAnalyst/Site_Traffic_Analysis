@@ -1,4 +1,4 @@
-# Site_Traffic_Analysis Project
+# Site_Traffic_Analysis for Measure School Project
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@
 ### Project Overview
 ---
 
-This data analysis project aims to provide insights and creating dashboard into visualizing key metrics to drive informed decision-making within organizations. By analyzing various aspects of the data, I seek to identify trends, order by city, region, category and segement. make data-driven recommendations, and gain a deeper understanding of the company's performance.
+This data analysis project aims to provide insights and creating dashboard into visualizing key metrics to drive informed decision-making within measure School organization. By analyzing various aspects of the data, I seek to total users, sessions engaged sessions, revenue, number of users visited their website and where users of their website are coming from.
 
 
 ![Site_Traffic_Analysis](https://github.com/user-attachments/assets/83bbbde4-dfd4-44c0-bade-4d9071d6f559)
@@ -59,7 +59,7 @@ Include some interesting code/features worked with
 
 ```sql
 SELECT * FROM table1
-WHERE cond = 2;
+WHERE cond = 4;
 ```
 
 ### Results/Findings
