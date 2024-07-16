@@ -47,7 +47,7 @@ In the initial data preparation phase, we performed the following tasks:
 
 EDA involved exploring the sales data to answer key questions, such as:
 
-- Identify Total users?
+- What are the total users?
 - What are numbers of sessions?
 - What are  numbers of engaged session?
 - What are our revenue? 
